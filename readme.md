@@ -6,7 +6,7 @@
 
 * `Python` > 3.5
 * `Django` < 3.0
-* `WebStorm`
+* `VSCode`
 * `SQLite3`
 
 ## Лицензия
