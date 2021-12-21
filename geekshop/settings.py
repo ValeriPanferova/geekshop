@@ -248,11 +248,6 @@ if DEBUG:
         "template_profiler_panel.panels.template.TemplateProfilerPanel",
     ]
 # <--- Django Debug Toolbar
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
 
 CACHE_MIDDLEWARE_ALIAS = "default"
 CACHE_MIDDLEWARE_SECONDS = 120
@@ -268,7 +263,3 @@ CACHES = {
 }
 
 LOW_CACHE = True
-<<<<<<< Updated upstream
-=======
->>>>>>> 814dfe26eaa4ca1386c0006453bf9ee49d9df316
->>>>>>> Stashed changes
