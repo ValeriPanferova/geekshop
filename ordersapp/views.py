@@ -14,7 +14,10 @@ from ordersapp.models import Order, OrderItem
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 814dfe26eaa4ca1386c0006453bf9ee49d9df316
 class OrderList(LoginRequiredMixin, ListView):
     model = Order
 
