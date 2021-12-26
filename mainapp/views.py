@@ -102,15 +102,9 @@ def main(request):
 
 
 def get_hot_product_list():
-<<<<<<< Updated upstream
     products = get_products()
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
     products = Product.objects.filter(is_active=True, category__is_active=True).select_related("category")
-=======
     products = get_products()
->>>>>>> 814dfe26eaa4ca1386c0006453bf9ee49d9df316
     hot_product = random.sample(list(products), 1)[0]
     hot_list = products.exclude(pk=hot_product.pk)[:3]
     return (hot_product, hot_list)
